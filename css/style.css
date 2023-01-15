@@ -282,3 +282,83 @@
   border-radius: 8px;
   color: #424242;
 }
+
+/* <!-- end  Some Facts section  -->
+<!-- end  Bons part section  --> */
+
+.plans-designs {
+  padding: 5vw 0 2vw 0;
+  text-align: center;
+}
+.plans-designs-title {
+  font-size: 2.5vw;
+  font-weight: 500;
+  padding: 2vw 0;
+}
+.plans-designs-items {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3vw 0;
+  column-gap: 1vw;
+}
+.plans-designs-item {
+  border-radius: 8px;
+  padding: 2.5vw 1vw;
+  box-shadow: 0px 0px 10px rgba(167, 165, 165, 0.575);
+  cursor: pointer;
+  transition: 0.7s;
+}
+.plans-designs-item:hover {
+  box-shadow: 0px 0px 10px rgb(61, 59, 59);
+}
+.plans-designs-sub-title {
+  padding: 1.5vw 0;
+  font-size: 0.85vw;
+  font-weight: 700;
+}
+.plans-designs-details {
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 0 0 1vw 0;
+}
+.plans-designs-item img {
+  width: 60px;
+  height: 60px;
+}
+
+/* <!-- end  Why Buy House Plans From Architectural Designs section  -->
+      <!-- start  New Plans section  --> */
+
+.new-plans {
+  padding: 2vw 0;
+
+  text-align: center;
+}
+.new-plans-title {
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+.new-plans-details {
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 1vw 0;
+}
+.new-plans-images-items {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1vw;
+}
+.new-plans-img-item {
+  box-shadow: 0px 0px 10px rgb(94, 94, 94);
+  padding: 1vw 1vw;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.new-plans-img-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+.new-plans-img-item:hover {
+  opacity: 65%;
+}
